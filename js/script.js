@@ -13,6 +13,5 @@ function enterClicked() {
   const userAge = parseInt(document.getElementById("age-entered").value)
 
   // output
-  document.getElementById("user-info").innerHTML =
-    "Your info is: " + firstName + ", age " + userAge + "."
+  document.getElementById("user-info").innerHTML = "Your info is: " + userAge + ", on " + firstName + "."
 }
